@@ -1,3 +1,5 @@
+"build:dev": "vite build --mode development"
+
 {
   "name": "vite-react-typescript-starter",
   "private": true,
