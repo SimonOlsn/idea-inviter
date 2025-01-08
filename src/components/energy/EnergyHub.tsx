@@ -1,5 +1,5 @@
 import React from 'react';
-import { Battery, Sun, Plug, Thermometer, DollarSign, Zap } from 'lucide-react';
+import { Plug, Thermometer, DollarSign, Zap } from 'lucide-react';
 import { DeviceCard } from './DeviceCard';
 import { PowerChart } from './PowerChart';
 

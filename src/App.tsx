@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { Product } from './types/products';
 import { Header } from './components/layout/Header';
 import { Hero } from './components/home/Hero';
 import { Footer } from './components/layout/Footer';
@@ -18,7 +16,6 @@ import { TeamPage } from './pages/TeamPage';
 import { ContactPage } from './pages/ContactPage';
 
 function App() {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
 
   return (

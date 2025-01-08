@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDevices } from '../../hooks/useDevices';
-import { Power, Wifi, Shield, Settings } from 'lucide-react';
+import { Power, Shield, Settings } from 'lucide-react';
 
 export const DeviceList: React.FC = () => {
   const { devices } = useDevices();

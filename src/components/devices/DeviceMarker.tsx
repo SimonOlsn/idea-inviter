@@ -1,6 +1,6 @@
 import React from 'react';
 import { Device } from '../../types/devices';
-import { Power, AlertTriangle, CheckCircle, Zap } from 'lucide-react';
+import { Zap } from 'lucide-react';
 
 interface DeviceMarkerProps {
   device: Device;
